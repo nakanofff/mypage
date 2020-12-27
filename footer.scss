@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+footer{
+    width: 100vw;
+    height: 16vh;
+    background-color: #08192D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    .footer_wrap{
+        width: 90vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .footer_logo{
+            width: 8vw;
+            height: auto;
+
+        }
+        .footer_nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            ul{
+                display: flex;
+        
+                li{
+                    border-left: 0.2px solid #ffffff;
+                    list-style: none;
+
+                    a{
+                        color: #ffffff;
+                        text-decoration: none;
+                        padding: 0 3vw;
+                        font-family: source-han-sans-cjk-ja, sans-serif;
+                        font-weight: 100;
+                        font-style: normal;
+                    }
+                }
+                .footer_last_list{
+                    border-right: 0.2px solid #ffffff;
+                }
+            }
+        }
+        .footer_arrow{
+            width: 4vw;
+            height: auto;
+        }
+    }
+    small{
+        text-align: center;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 480px){
+    footer{
+        height: 50vh !important;
+
+        .footer_wrap{
+            width: 100vw;
+            justify-content: center;
+            align-items: flex-end;
+
+            .footer_logo{
+                width: 30vw;
+                height: auto;
+                margin-right: 5vw;
+            }
+
+            .footer_nav{
+
+                ul{
+                    flex-direction: column !important;
+                    padding: 0;
+
+                    li{
+                        border: none;
+                        text-align: center;
+                        padding-top: 3vh;
+                    }
+                    .footer_last_list{
+                        border: none;
+                    }
+
+                }
+            }
+            .footer_arrow{
+                width: 20vw;
+                margin-left: 5vw;
+            }
+        }
+    }
+}

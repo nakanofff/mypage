@@ -1,0 +1,118 @@
+@charset "utf-8";
+main{
+    width: 100vw;
+    height: auto;
+
+    .works_photo_wrap{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 60vw;
+            height: auto;
+            object-fit: cover;
+            margin-bottom: 10vh;
+        }
+        
+    }
+    .works_content_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30vh;
+
+        .works_desc{
+            width: 60vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .works_content_title{
+
+                h2{
+                    color: #000;
+                    font-size: 1.8vw;
+                    font-family: bc-alphapipe, sans-serif;
+                    font-weight: 200;
+                    font-style: normal;
+                    margin-bottom: 3px;
+                }
+                h3{
+                    color: #000;
+                    font-size: 1vw;
+                    font-family: source-han-sans-cjk-ja, sans-serif;
+                    font-weight: 100;
+                    font-style: normal; 
+                    margin-top: 0;
+                }
+                a{
+                    color: #1B262C;
+                    font-size: 0.7vw;
+                    font-family: bc-alphapipe, sans-serif;
+                    font-weight: 200;
+                    font-style: normal;
+                    margin-bottom: 3px;
+                    text-decoration: none;
+                    border-bottom: 0.4px solid #1B262C;
+                }
+            }
+            .works_content_text{
+                margin-top: 8vh;
+                margin-bottom: 8vh;
+                width: 80%;
+                height: auto;
+
+                p{
+                    color: #000;
+                    font-size: 0.8vw;
+                    font-family: source-han-sans-cjk-ja, sans-serif;
+                    font-weight: 100;
+                    font-style: normal; 
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    main{
+
+        .works_photo_wrap{
+
+            img{
+                width: 80vw;
+                height: 75vh;
+                object-fit: cover;
+                margin-bottom: 10vh;
+            }
+        }
+        .works_content_wrap{
+
+            .works_desc{
+                width: 80vw;
+
+                .works_content_title{
+                    
+                    h2{
+                        font-size: 4vw;
+                    }
+                    h3{
+                        font-size: 1.3vw;
+                    }
+                }
+                .works_content_text{
+
+                    p{
+                        width: 80vw;
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,180 @@
+main {
+  width: 85vw;
+  height: auto;
+  margin-left: 15vw;
+}
+
+main .title_text h2 {
+  color: #000;
+  font-size: 3.2vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+main .title_text h3 {
+  color: #000;
+  font-size: 1.8vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main .myconcept {
+  margin-top: 10vw;
+}
+
+main .myconcept h3 {
+  color: #000;
+  font-size: 2.5vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+main .myconcept h4 {
+  color: #000;
+  font-size: 1.5vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main .myconcept p {
+  width: 70vw;
+  height: auto;
+  color: #000;
+  font-size: 1.3vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+}
+
+main .skills {
+  margin-top: 40vh;
+  margin-bottom: 20vh;
+}
+
+main .skills h3 {
+  color: #000;
+  font-size: 2.5vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+main .skills h4 {
+  color: #000;
+  font-size: 1.5vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main .skills .skills_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .skills .skills_wrap .skills_content {
+  width: 30vw;
+  height: auto;
+}
+
+main .skills .skills_wrap .skills_content h5 {
+  color: #000;
+  font-size: 2.2vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+main .skills .skills_wrap .skills_content h6 {
+  color: #000;
+  font-size: 1.3vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main .skills .skills_wrap .skills_content ul {
+  padding: 0;
+}
+
+main .skills .skills_wrap .skills_content ul li {
+  list-style: none;
+  color: #000;
+  font-size: 1.2vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .skills .skills_wrap .skills_content ul li:before {
+  content: "";
+  width: 4vw;
+  border-top: 0.4px solid #000;
+}
+
+@media screen and (max-width: 480px) {
+  main .title_text h2 {
+    font-size: 11vw;
+  }
+  main .title_text h3 {
+    font-size: 5.2vw;
+  }
+  main .myconcept h3 {
+    font-size: 5vw;
+  }
+  main .myconcept h4 {
+    font-size: 4.2vw;
+  }
+  main .skills {
+    margin-top: 16vh;
+  }
+  main .skills h3 {
+    font-size: 5vw;
+  }
+  main .skills h4 {
+    font-size: 4.2vw;
+  }
+  main .skills .skills_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .skills .skills_wrap .skills_content h6 {
+    width: 80vw;
+  }
+  main .skills .skills_wrap .skills_content ul li:before {
+    content: "";
+    width: 4vw;
+    border-top: 0.04px solid #000;
+  }
+}
+/*# sourceMappingURL=about.css.map */

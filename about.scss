@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+
+main{
+    width: 85vw;
+    height: auto;
+    margin-left: 15vw;
+    
+    .title_text{
+
+        h2{
+            color: #000;
+            font-size: 3.2vw;
+            font-family: bc-alphapipe, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            margin-bottom: 0;
+        }
+        h3{
+            color: #000;
+            font-size: 1.8vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal;   
+            margin-top: 3px;
+        }
+    }
+    .myconcept{
+        margin-top: 10vw;
+
+        h3{
+            color: #000;
+            font-size: 2.5vw;
+            font-family: bc-alphapipe, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            margin-bottom: 0;
+        }
+        h4{
+            color: #000;
+            font-size: 1.5vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal;   
+            margin-top: 3px;
+        }
+        p{  
+            width: 70vw;
+            height: auto;
+            color: #000;
+            font-size: 1.3vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal; 
+            font-feature-settings: "palt";
+    }
+    }
+    .skills{
+        margin-top: 40vh;
+        margin-bottom: 20vh;
+
+        h3{
+            color: #000;
+            font-size: 2.5vw;
+            font-family: bc-alphapipe, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            margin-bottom: 0;
+
+        }
+        h4{
+            color: #000;
+            font-size: 1.5vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal;   
+            margin-top: 3px;
+        }
+        .skills_wrap{
+            display: flex;
+
+            .skills_content{
+                width: 30vw;
+                height: auto;
+
+
+                h5{
+                    color: #000;
+                    font-size: 2.2vw;
+                    font-family: bc-alphapipe, sans-serif;
+                    font-weight: 200;
+                    font-style: normal;   
+                    margin-bottom: 0;
+                }
+                h6{
+                    color: #000;
+                    font-size: 1.3vw;
+                    font-family: source-han-sans-cjk-ja, sans-serif;
+                    font-weight: 100;
+                    font-style: normal;   
+                    margin-top: 3px;
+                }
+                ul{
+                    padding: 0;
+
+                    li{
+                        list-style: none;
+                        color: #000;
+                        font-size: 1.2vw;
+                        font-family: bc-alphapipe, sans-serif;
+                        font-weight: 200;
+                        font-style: normal;   
+                        margin-bottom: 0;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                    }
+                    li:before{
+                        content: "";
+                        width: 4vw;
+                        border-top: 0.4px solid #000;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    main{
+
+        .title_text{
+
+            h2{
+                font-size: 11vw;
+            }
+            h3{
+                font-size: 5.2vw;
+            }
+        }
+        .myconcept{
+
+            h3{
+                font-size: 5vw;
+            }
+            h4{
+                font-size: 4.2vw;
+            }
+            p{
+
+            }
+        }
+        .skills{
+            margin-top: 16vh;
+
+            h3{
+                font-size: 5vw;
+            }
+            h4{
+                font-size: 4.2vw;
+            }
+            .skills_wrap{
+                display: flex;
+                flex-direction: column;
+
+                .skills_content{
+
+                    h5{
+
+                    }
+                    h6{
+                        width: 80vw;
+                    }
+                    ul{
+
+                        li{
+                           
+                        }
+                        li:before{
+                            content: "";
+                            width: 4vw;
+                            border-top: 0.04px solid #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,152 @@
+main {
+  width: 85vw;
+  height: auto;
+  margin-left: 15vw;
+}
+
+main .title_text h2 {
+  color: #000;
+  font-size: 3.2vw;
+  font-family: bc-alphapipe, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+main .title_text h3 {
+  color: #000;
+  font-size: 1.8vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main form {
+  margin-bottom: 30vh;
+}
+
+main form .form_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 60vw;
+  height: auto;
+  margin-top: 3vh;
+}
+
+main form .form_section label {
+  color: #000;
+  font-size: 1.2vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main form .form_section input {
+  width: 30vw;
+  height: auto;
+  background-color: #f9f9f9;
+  border-radius: none;
+  border: 0.4px solid #000;
+  color: #000;
+  font-size: 0.9vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+main form .textarea_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 60vw;
+  height: auto;
+  margin-top: 3vh;
+}
+
+main form .textarea_section label {
+  color: #000;
+  font-size: 1.2vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin-top: 3px;
+}
+
+main form .textarea_section textarea {
+  width: 60vw;
+  height: auto;
+  background-color: #f9f9f9;
+  border-radius: none;
+  border: 0.4px solid #000;
+  color: #000;
+  font-size: 0.9vw;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+main form .submit_button {
+  width: 30vw;
+  height: auto;
+  background-color: #1B262C;
+  color: #ffffff;
+  border-radius: none;
+  border: none;
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.1vw;
+  margin-top: 3vh;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  main .title_text h2 {
+    font-size: 11vw;
+  }
+  main .title_text h3 {
+    font-size: 5.2vw;
+  }
+  main form {
+    margin-bottom: 10vh;
+  }
+  main form .form_section label {
+    font-size: 4.5vw;
+  }
+  main form .form_section input {
+    width: 70vw;
+    border: 0.1px solid #000;
+    font-size: 4.5vw;
+  }
+  main form .textarea_section label {
+    font-size: 4.5vw;
+  }
+  main form .textarea_section textarea {
+    width: 70vw;
+    height: 20vh;
+    border: 0.1px solid #000;
+    font-size: 4.5vw;
+  }
+  main form .submit_button {
+    width: 70vw;
+    font-size: 4.5vw;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+main{
+    width: 85vw;
+    height: auto;
+    margin-left: 15vw;
+
+    .title_text{
+
+        h2{
+            color: #000;
+            font-size: 3.2vw;
+            font-family: bc-alphapipe, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            margin-bottom: 0;
+        }
+        h3{
+            color: #000;
+            font-size: 1.8vw;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal;   
+            margin-top: 3px;
+        }
+    }
+    form{
+        margin-bottom: 30vh;
+
+        .form_section{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 60vw;
+            height: auto;
+            margin-top: 3vh;
+
+            label{
+                color: #000;
+                font-size: 1.2vw;
+                font-family: source-han-sans-cjk-ja, sans-serif;
+                font-weight: 100;
+                font-style: normal;   
+                margin-top: 3px;
+            }
+            input{
+                width: 30vw;
+                height: auto;
+                background-color: #f9f9f9;
+                border-radius: none;
+                border: 0.4px solid #000;
+                color: #000;
+                font-size: 0.9vw;
+                font-family: source-han-sans-cjk-ja, sans-serif;
+                font-weight: 100;
+                font-style: normal;  
+            }
+        }
+        .textarea_section{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 60vw;
+            height: auto;
+            margin-top: 3vh;
+
+            label{
+                color: #000;
+                font-size: 1.2vw;
+                font-family: source-han-sans-cjk-ja, sans-serif;
+                font-weight: 100;
+                font-style: normal;   
+                margin-top: 3px;
+            }
+            textarea{
+                width: 60vw;
+                height: auto;
+                background-color: #f9f9f9;
+                border-radius: none;
+                border: 0.4px solid #000;
+                color: #000;
+                font-size: 0.9vw;
+                font-family: source-han-sans-cjk-ja, sans-serif;
+                font-weight: 100;
+                font-style: normal;  
+            }
+        }
+        .submit_button{
+            width: 30vw;
+            height: auto;
+            background-color: #1B262C;
+            color: #ffffff;
+            border-radius: none;
+            border: none;
+            font-family: source-han-sans-cjk-ja, sans-serif;
+            font-weight: 100;
+            font-style: normal;  
+            font-size: 1.1vw;
+            margin-top: 3vh;
+            text-align: left;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    main{
+
+        .title_text{
+
+            h2{
+                font-size: 11vw;
+            }
+            h3{
+                font-size: 5.2vw;
+            }
+        }
+        form{
+            margin-bottom: 10vh;
+
+            .form_section{
+
+
+                label{
+                    font-size: 4.5vw;
+                }
+                input{
+                    width: 70vw;
+                    border: 0.1px solid #000;
+                    font-size: 4.5vw;
+                }
+            }
+            .textarea_section{
+
+                label{
+                    font-size: 4.5vw;
+                }
+                textarea{
+                    width: 70vw;
+                    height: 20vh;
+                    border: 0.1px solid #000;
+                    font-size: 4.5vw;
+                }
+            }
+            .submit_button{
+                width: 70vw;
+                font-size: 4.5vw;
+            }
+        }
+    }
+}
