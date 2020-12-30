@@ -94,7 +94,7 @@ main{
         .works_content_wrap{
 
             .works_desc{
-                width: 80vw;
+                width: 80vw !important;
 
                 .works_content_title{
                     
@@ -108,7 +108,7 @@ main{
                 .works_content_text{
 
                     p{
-                        width: 80vw;
+                        width: 80vw !important;
                     }
                 }
             }
