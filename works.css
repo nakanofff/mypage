@@ -153,8 +153,15 @@ main .works .works_wrap ul li:hover .works_hover_shape {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 0;
+    margin: 0 !important;
   }
   main .works .works_wrap ul li {
+    width: 80vw;
+    height: 30vh;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+  }
+  main .works .works_wrap ul li img {
     width: 80vw;
     height: 30vh;
   }

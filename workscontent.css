@@ -106,7 +106,7 @@ main .works_content_wrap .works_desc .works_content_text p {
 @media screen and (max-width: 480px) {
   main .works_photo_wrap img {
     width: 80vw;
-    height: 75vh;
+    height: auto;
     -o-object-fit: cover;
        object-fit: cover;
     margin-bottom: 10vh;
