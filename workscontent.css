@@ -115,10 +115,10 @@ main .works_content_wrap .works_desc .works_content_text p {
     width: 80vw;
   }
   main .works_content_wrap .works_desc .works_content_title h2 {
-    font-size: 4vw;
+    font-size: 4vw !important;
   }
   main .works_content_wrap .works_desc .works_content_title h3 {
-    font-size: 1.3vw;
+    font-size: 1.3vw !important;
   }
   main .works_content_wrap .works_desc .works_content_text p {
     width: 80vw;
