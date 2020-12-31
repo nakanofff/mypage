@@ -115,13 +115,14 @@ main .works_content_wrap .works_desc .works_content_text p {
     width: 80vw !important;
   }
   main .works_content_wrap .works_desc .works_content_title h2 {
-    font-size: 4vw !important;
+    font-size: 5.7vw !important;
   }
   main .works_content_wrap .works_desc .works_content_title h3 {
-    font-size: 1.3vw !important;
+    font-size: 4vw !important;
   }
   main .works_content_wrap .works_desc .works_content_text p {
     width: 80vw !important;
+    font-size: 3.7vw;
   }
 }
 /*# sourceMappingURL=workscontent.css.map */
